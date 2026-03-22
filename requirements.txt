@@ -20,7 +20,7 @@ pandas>=2.2.2
 python-dotenv>=1.0.1
 
 # HTTP client
-httpx==0.27.0
+httpx>=0.27.0
 
 # FastAPI data validation
-pydantic==2.7.1
+pydantic>=2.7.1
