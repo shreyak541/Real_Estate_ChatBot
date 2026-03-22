@@ -1,23 +1,23 @@
 # Seabreeze Real Estate Chatbot — Dependencies
 
 # Web framework (serves HTML frontend + REST API)
-fastapi==0.111.0
-uvicorn[standard]==0.29.0
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
 
 # LLM providers (install at least one)
 openai>=1.30.0
 google-generativeai>=0.5.4
 
 # RAG / Vector search
-faiss-cpu==1.8.0
-numpy==1.26.4
+faiss-cpu>=1.12.0
+numpy>=1.26.4
 
 # Fallback embeddings (TF-IDF, no API key needed)
-scikit-learn==1.5.0
+scikit-learn>=1.5.0
 
 # Data / database
-pandas==2.2.2
-python-dotenv==1.0.1
+pandas>=2.2.2
+python-dotenv>=1.0.1
 
 # HTTP client
 httpx==0.27.0
