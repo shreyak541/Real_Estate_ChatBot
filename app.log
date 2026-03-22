@@ -1,0 +1,78 @@
+2026-03-22 16:46:47 | INFO     | app | Initialising RAG retriever …
+2026-03-22 16:46:47 | INFO     | chatbot.rag_pipeline | Building FAISS index over 18 chunks …
+2026-03-22 16:46:47 | WARNING  | chatbot.rag_pipeline | OPENAI_API_KEY not set. Using TF-IDF fallback embeddings.
+2026-03-22 16:46:49 | INFO     | chatbot.rag_pipeline | FAISS index built successfully.
+2026-03-22 16:46:49 | INFO     | chatbot.rag_pipeline | FAISS index saved to C:\Users\shrey\Downloads\files\real_estate_chatbot\data\faiss_index.pkl
+2026-03-22 16:46:49 | INFO     | database.db | Using CSV backend for leads.
+2026-03-22 16:47:44 | INFO     | app | New session created: 4f22d4a5-fa6b-4fb6-8c72-bcf0ec031fb3
+2026-03-22 16:54:31 | INFO     | app | Initialising RAG retriever …
+2026-03-22 16:54:33 | INFO     | chatbot.rag_pipeline | FAISS index loaded from C:\Users\shrey\Downloads\files\real_estate_chatbot\data\faiss_index.pkl
+2026-03-22 16:54:33 | INFO     | database.db | Using CSV backend for leads.
+2026-03-22 16:54:41 | INFO     | app | New session created: 226aa8ea-86d6-410c-95cc-c0dccafd8468
+2026-03-22 16:54:43 | INFO     | app | New session created: 34f93037-7e4a-4f9e-8fbe-38e9b678a72b
+2026-03-22 16:55:05 | INFO     | chatbot.conversation | Turn 1 | User: What are the amenities?
+2026-03-22 16:55:05 | ERROR    | chatbot.conversation | No LLM API key found. Set OPENAI_API_KEY or GEMINI_API_KEY in .env
+2026-03-22 16:55:05 | INFO     | chatbot.conversation | Turn 1 | Assistant: I'm sorry, I'm having trouble connecting right now. Please call our sales team d
+2026-03-22 16:56:13 | INFO     | chatbot.conversation | Turn 2 | User: yes
+2026-03-22 16:56:13 | ERROR    | chatbot.conversation | No LLM API key found. Set OPENAI_API_KEY or GEMINI_API_KEY in .env
+2026-03-22 16:56:13 | WARNING  | chatbot.lead_capture | No LLM API key set. Lead extraction skipped.
+2026-03-22 16:56:13 | INFO     | chatbot.conversation | Turn 2 | Assistant: I'm sorry, I'm having trouble connecting right now. Please call our sales team d
+2026-03-22 16:57:10 | INFO     | app | Initialising RAG retriever …
+2026-03-22 16:57:12 | INFO     | chatbot.rag_pipeline | FAISS index loaded from C:\Users\shrey\Downloads\files\real_estate_chatbot\data\faiss_index.pkl
+2026-03-22 16:57:12 | INFO     | database.db | Using CSV backend for leads.
+2026-03-22 16:57:20 | INFO     | app | New session created: 2c5d44f4-5991-40a2-8e6c-f7bba5836b1a
+2026-03-22 16:57:34 | INFO     | chatbot.conversation | Turn 1 | User: What's the price?
+2026-03-22 16:57:40 | ERROR    | chatbot.conversation | LLM error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-22 16:57:40 | INFO     | chatbot.conversation | Turn 1 | Assistant: I'm sorry, something went wrong. Please try again in a moment.
+2026-03-22 16:58:27 | INFO     | chatbot.conversation | Turn 2 | User: yes
+2026-03-22 16:58:27 | ERROR    | chatbot.conversation | LLM error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-22 16:58:27 | ERROR    | chatbot.lead_capture | Lead extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-22 16:58:27 | INFO     | chatbot.conversation | Turn 2 | Assistant: I'm sorry, something went wrong. Please try again in a moment.
+2026-03-22 17:06:44 | INFO     | chatbot.conversation | Turn 3 | User: yes
+2026-03-22 17:06:44 | ERROR    | chatbot.conversation | LLM error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-22 17:06:44 | INFO     | chatbot.conversation | Turn 3 | Assistant: I'm sorry, something went wrong. Please try again in a moment.
+2026-03-22 17:06:50 | INFO     | app | Initialising RAG retriever …
+2026-03-22 17:06:52 | INFO     | chatbot.rag_pipeline | FAISS index loaded from C:\Users\shrey\Downloads\files\real_estate_chatbot\data\faiss_index.pkl
+2026-03-22 17:06:52 | INFO     | database.db | Using CSV backend for leads.
+2026-03-22 17:07:19 | INFO     | app | Initialising RAG retriever …
+2026-03-22 17:07:21 | INFO     | chatbot.rag_pipeline | FAISS index loaded from C:\Users\shrey\Downloads\files\real_estate_chatbot\data\faiss_index.pkl
+2026-03-22 17:07:21 | INFO     | database.db | Using CSV backend for leads.
+2026-03-22 17:08:37 | INFO     | app | Initialising RAG retriever …
+2026-03-22 17:08:39 | INFO     | chatbot.rag_pipeline | FAISS index loaded from C:\Users\shrey\Downloads\files\real_estate_chatbot\data\faiss_index.pkl
+2026-03-22 17:08:39 | INFO     | database.db | Using CSV backend for leads.
+2026-03-22 17:22:45 | INFO     | app | New session created: debb85d3-85a4-403b-bbed-70178910fc45
+2026-03-22 17:22:58 | INFO     | chatbot.conversation | Turn 1 | User: yes my name is Riya
+2026-03-22 17:23:09 | INFO     | chatbot.conversation | Turn 1 | Assistant: It's lovely to meet you, Riya! At Seabreeze by Godrej Bayview, we offer a perfec
+2026-03-22 17:26:10 | INFO     | chatbot.conversation | Turn 2 | User: 3bhk
+2026-03-22 17:26:20 | ERROR    | chatbot.lead_capture | Lead extraction failed: Expecting value: line 1 column 1 (char 0)
+2026-03-22 17:26:20 | INFO     | chatbot.conversation | Turn 2 | Assistant: That’s a wonderful choice, Riya! Our 3 BHK residences at Seabreeze are very spac
+2026-03-22 17:26:46 | INFO     | chatbot.conversation | Turn 3 | User: budget 2.5 cr
+2026-03-22 17:26:51 | INFO     | chatbot.conversation | Turn 3 | Assistant: I appreciate you sharing that, Riya. At Seabreeze by Godrej Bayview, our premium
+2026-03-22 17:28:02 | INFO     | chatbot.conversation | Turn 4 | User: next 6 months  and i am open for other propeties nearby
+2026-03-22 17:28:11 | INFO     | chatbot.conversation | Turn 4 | Assistant: That is a great timeline to plan your move, Riya! Since your budget is around ₹2
+2026-03-22 17:28:48 | INFO     | chatbot.conversation | Turn 5 | User: abc@gmail.com 9999999901
+2026-03-22 17:28:53 | INFO     | chatbot.conversation | Turn 5 | Assistant: Thank you for sharing your details, Riya! I have noted your contact information 
+2026-03-22 17:29:25 | INFO     | chatbot.conversation | Turn 6 | User: yes but maybe next year
+2026-03-22 17:29:34 | INFO     | database.db | Lead saved to CSV: C:\Users\shrey\Downloads\files\real_estate_chatbot\data\leads.csv
+2026-03-22 17:29:34 | INFO     | chatbot.lead_capture | Lead saved: Riya
+2026-03-22 17:29:34 | INFO     | chatbot.conversation | Turn 6 | Assistant: I completely understand, Riya. Planning ahead is always a wise decision, and we 
+2026-03-22 17:30:01 | INFO     | chatbot.conversation | Turn 7 | User: yes
+2026-03-22 17:30:05 | INFO     | chatbot.conversation | Turn 7 | Assistant: That’s great, Riya! I will have our specialist send those virtual tour links and
+2026-03-22 17:32:20 | INFO     | chatbot.conversation | Turn 8 | User: not my requiement
+2026-03-22 17:32:32 | INFO     | chatbot.conversation | Turn 8 | Assistant: I understand, Riya. Sometimes a balanced home that simply checks all the right b
+2026-03-22 17:32:44 | INFO     | chatbot.conversation | Turn 9 | User: phone call
+2026-03-22 17:32:48 | INFO     | chatbot.conversation | Turn 9 | Assistant: Perfect, Riya! I have noted your preference for a phone call. 
+
+Our specialist w
+2026-03-22 17:32:57 | INFO     | chatbot.conversation | Turn 10 | User: 9 am
+2026-03-22 17:33:08 | INFO     | chatbot.conversation | Turn 10 | Assistant: That is perfectly noted, Riya. I will ensure our specialist calls you tomorrow m
+2026-03-22 17:33:31 | INFO     | chatbot.conversation | Turn 11 | User: Santacruz and navi mumbai
+2026-03-22 17:33:37 | INFO     | chatbot.conversation | Turn 11 | Assistant: Vashi offers excellent connectivity to Mumbai, with major hubs like BKC and the 
+2026-03-22 17:33:54 | INFO     | chatbot.conversation | Turn 12 | User: yex
+2026-03-22 17:34:01 | INFO     | chatbot.conversation | Turn 12 | Assistant: Absolutely, Riya! I'll make sure our specialist includes a detailed comparison o
+2026-03-22 17:34:12 | INFO     | chatbot.conversation | Turn 13 | User: Not required
+2026-03-22 17:34:16 | INFO     | chatbot.conversation | Turn 13 | Assistant: Understood, Riya. I have all the necessary information to ensure our specialist 
+2026-03-22 17:34:24 | INFO     | chatbot.conversation | Turn 14 | User: Sure
+2026-03-22 17:34:31 | INFO     | chatbot.conversation | Turn 14 | Assistant: Great! It has been a pleasure assisting you today, Riya. 
+
+Our specialist will c
